@@ -14,7 +14,7 @@ M.general = {
     },
   },
   i = {
-    ["<C-s>"] = { "<ESC> :w <Enter>", "Save file in insert mode" },
+    ["<C-s>"] = { "<Esc>:w<CR>a", "Save file in insert mode" },
     ["<C-z>"] = { "<ESC> <C-r> i", "Redo file in insert mode" },
   },
   v = {
