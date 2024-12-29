@@ -6,5 +6,7 @@
 --   command = "tabdo wincmd =",
 -- })
 
-vim.opt.guicursor = "n-v-i-c:block-Cursor"
+-- vim.opt.guicursor = "n-v-i-c:block-Cursor"
 vim.wo.relativenumber = true
+vim.o.scrolloff = 10
+
