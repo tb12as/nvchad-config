@@ -17,7 +17,6 @@ local options = {
 
   formatters = {
     php_cs_fixer = {
-      -- find a way to increase the timeout for this formater
       -- command = "php-cs-fixer",
       command = "/usr/local/bin/php8-cs-fixer",
       -- args = { "fix", "$FILENAME", "--using-cache=no", "--config=/home/tb12as/.php_cs_fixer.php" }

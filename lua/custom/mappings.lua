@@ -8,7 +8,7 @@ M.general = {
     --  format with conform
     ["<leader>fm"] = {
       function()
-        require("conform").format()
+        require("conform").format { timeout_ms = 5000, lsp_fallback = true }
       end,
       "formatting",
     },
