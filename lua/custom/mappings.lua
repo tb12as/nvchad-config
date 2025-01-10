@@ -8,7 +8,8 @@ M.general = {
     --  format with conform
     ["<leader>fm"] = {
       function()
-        require("conform").format { timeout_ms = 5000, lsp_fallback = true }
+        -- as the documentation said: timeout_ms has no effect if async = true
+        require("conform").format { lsp_fallback = true, async = true }
       end,
       "formatting",
     },
